@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link href="https://www.unpkg.com/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div id="game">
+    <table id="board"></table>
+    <p id="endGameMsg"></p>
+    <div id="p1">
+      <label for="player1">Player 1 Emoji </label>
+      <select name="emoji1" id="emoji1">
+        <option>❌</option>
+        <option>😊</option>
+        <option>🥸</option>
+        <option>🎃</option>
+        <option>😺</option>
+        <option>🐨</option>
+        <option>🌈</option>
+        <option>🐸</option>
+        <option>🐧</option>
+        <option>💜</option>
+        <option>🌺</option>
+        <option>🏄🏽‍♂️</option>
+        <option>🪸</option>
+      </select>
+    </div>
+    <div id="p2">
+      <label for="player2">Player 2 Emoji </label>
+      <select name="emoji2" id="emoji2">
+        <option>⭕️</option>
+        <option>😎</option>
+        <option>🤠</option>
+        <option>🤖</option>
+        <option>🐶</option>
+        <option>🦄</option>
+        <option>🦋</option>
+        <option>🐔</option>
+        <option>🧿</option>
+        <option>💚</option>
+        <option>🌸</option>
+        <option>🧘🏽‍♂️</option>
+        <option>🐠</option>
+      </select>
+      </label>
+    </div>
+    <!-- <button id="start">Start</button> -->
+    <button id="start" type="button" class="btn btn-info">Start</button>
+  </div>
+
+
+
+  <script src="https://unpkg.com/jquery"></script>
+  <script src="tic-tac-toe.js"></script>
+
+</body>
+
+</html>
